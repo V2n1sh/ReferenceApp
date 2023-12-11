@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ReferenceApp</string>
+    <string name="Title_info">О компании</string>
+    <string name="Title_services">Услуги</string>
+    <string name="Title_contact">Контакты</string>
+    <string name="Title_process">Процесс</string>
+    <string name="Title_like">Преимущества</string>
+    <string name="InfoTitle">РПК \"Эталон Медиа\"</string>
+    <string name="InfoText">Компания основана в 2009 году, в рамках цифровой типографии. Сегодня у «Эталон Медиа» 5 производственных линий, бюро дизайна и конструирования, а так же собственное книжное издательство. Мы работаем на территории всей центральной и северо-западной части России. Оказываем услуги по официальному договору, даем гарантию и обслуживаем свои объекты. Вы можете заказать у нас объемные световые буквы и вывески любого цвета, формы, шрифта и начертания. В работе мы используем современные технологии и высококачественные материалы, что гарантирует долгую эксплуатацию и отличный внешний вид. Цена определяется в индивидуальном порядке.</string>
+    <string name="TitleServices">Реализуем ваши идеи</string>
+    <string name="ServicesText">Мы имеем широкий спектр услуг от печати визиток до больших экранов. Делаем комплексные решения рекламы. Воплощаем Ваши желания.</string>
+    <string name="TitleContact">Контакты</string>
+    <string name="ContactText">г. Вологда, ул. Путейская 17\n784490@mail.ru\n8(800)350-44-90\n8(8172)29-99-93</string>
+    <string name="Item1_Text">Заказчик составляет заявку менеджеру</string>
+    <string name="Item2_Text">Менеджер согласовывает с Заказчиком стоимость работ</string>
+    <string name="Item3_Text">Дизайнер разрабатывает макет и согласовывает с Заказчиком</string>
+    <string name="Item4_Text">Макетчики приступают к производству и печати</string>
+    <string name="Item6_Text">Заказчик получает продукцию и скидку постоянного клиента</string>
+    <string name="TitlePlus">Оперативно и безупречно</string>
+    <string name="Plus1_Text">Соблюдаем сроки, печать от 2х часов</string>
+    <string name="Plus2_Text">Подготовим продукцию в точном соответствии с макетом</string>
+    <string name="Plus3_Text">Более 25 специалистов</string>
+    <string name="Plus4_Text">10 лет безупречной работы</string>
+    <string name="Plus5_Text">Полная автоматизация</string>
+</resources>

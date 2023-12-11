@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="#80BDF4"
+        android:drawableTop="@drawable/like"
+        android:gravity="top|center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="@string/Title_like"
+        android:textColor="#0A0A0A"
+        android:textColorLink="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_info" />
+
+    <Button
+        android:id="@+id/button_process"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#80BDF4"
+        android:drawableTop="@drawable/process"
+        android:gravity="top|center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="@string/Title_process"
+        android:textColor="#0A0A0A"
+        android:textColorLink="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_info" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="499dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_info"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="34dp"
+        android:backgroundTint="#80BDF4"
+        android:drawableTop="@drawable/info"
+        android:gravity="top|center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="@string/Title_info"
+        android:textColor="#0A0A0A"
+        android:textColorLink="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button_services"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="47dp"
+        android:backgroundTint="#80BDF4"
+        android:drawableTop="@drawable/services"
+        android:gravity="top|center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="@string/Title_services"
+        android:textColor="#0A0A0A"
+        android:textColorLink="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button_contact"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#80BDF4"
+        android:drawableTop="@drawable/contact"
+        android:gravity="top|center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="@string/Title_contact"
+        android:textColor="#0A0A0A"
+        android:textColorLink="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
